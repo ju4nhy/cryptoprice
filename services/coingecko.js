@@ -1,7 +1,7 @@
 
 const CoinGecko = require('coingecko-api');
 const config = require('../config.json');
-const sendErrorMessage = require('../utils/errorHandler.js')
+const { sendErrorMessage } = require('../utils/errorHandler.js')
 
 const CoinGeckoClient = new CoinGecko();
 
