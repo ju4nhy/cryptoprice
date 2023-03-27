@@ -1,7 +1,7 @@
 
 ## CryptoPrice
 A simple Node.js app that fetches current crypto prices from CoinGecko API and sends notifications to a Discord channel via a webhook. 
-To configure the app, create a **config.json** file in the project root with the following contents. This example follows btc and eth with a 3-hour interval set:
+To configure the app, create a **config.json** file in the project root with the following contents. This example follows btc and eth with a 3-hour (180 minutes) interval set:
 
 ```json
 {
