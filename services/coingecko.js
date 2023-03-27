@@ -13,7 +13,7 @@ const getCoinGeckoData = async () => {
 		});
 		return cryptoData;
 	} catch(err) {
-        sendErrorMessage(err);
+    	sendErrorMessage(err);
 		throw new Error('Failed to get coin data');
 	}
 };
